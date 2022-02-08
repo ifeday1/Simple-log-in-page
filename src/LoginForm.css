@@ -1,0 +1,45 @@
+body{
+    background-color:#ccc;
+}
+
+.login_form{
+    background-color:antiquewhite;
+    padding: 2rem;
+    margin: 15% auto;
+    width: 25rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 25);
+}
+.login__form label{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+.login__form input{
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1 solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+.btn{
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: rgb(183, 169, 216);
+    border-radius: 6px;
+    border: 1 solid #ccc;
+    margin-top: 0.5rem;
+    width: 10rem;
+    max-width: 100%;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    color:rgb(50, 14, 133);
+}
+.reg{
+    cursor: pointer;
+    font-weight: bold;
+    color: violet;
+}
